@@ -2,14 +2,15 @@
  * !create folder routes
  * --------------------
  * 1:app_route_config.dart
- *    here we are configuarting gorouter with our material app
+ *    here we are configuarting go router with our material app
  * 
  * 2:app_route_constants.dart
  * !main.dart
  * -------------
  * make the MaterialApp()
  *        MaterialApp.router
- * !create class in MyAppRouter
+ * 
+ * !create class in MyAppRouter:app_route_config.dart
  *   inside it create an object of GoRouter
  *   give parameter
  *          routes:[]
