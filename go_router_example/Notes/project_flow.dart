@@ -16,5 +16,11 @@
  *          routes:[]
  *   inside this give each page route name,path,builder inside GoRouter()
  *           GoRouter(name:"home",path:"/",builder:(context,state){return MaterialPage(child:MyHomePage())})
- * 
+ *  give all pages
+ * !give routeInformationParser: in main
+ * as the router classs().router.routeInformationParser
+ * !routerDelegate: in main
+ * as also same
+ *        classs().router.routerDelegate
+ *     
  */
