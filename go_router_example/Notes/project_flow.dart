@@ -22,5 +22,11 @@
  * !routerDelegate: in main
  * as also same
  *        classs().router.routerDelegate
- *     
+ * !routeInformationProvider: in main
+ *                routeInformationProvider: MyAppRouter().router.routeInformationProvider,
+ * 
+ * 
+ * 
+ * 
+
  */
