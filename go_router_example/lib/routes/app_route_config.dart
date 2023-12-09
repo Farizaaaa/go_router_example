@@ -17,7 +17,7 @@ class MyAppRouter {
       ),
       GoRoute(
         path: "/profile",
-        name: "profiel",
+        name: "profile",
         pageBuilder: (context, state) => const MaterialPage(
           child: ProfilePage(),
         ),
