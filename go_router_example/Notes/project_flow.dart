@@ -24,9 +24,30 @@
  *        classs().router.routerDelegate
  * !routeInformationProvider: in main
  *                routeInformationProvider: MyAppRouter().router.routeInformationProvider,
+ * *run the app chrome
+ * *above the url type first shown will be home page
+ * *http://localhost:51174/
+ * *then type 
+ * *http://localhost:51174/#/about
+ *   then shows the about page
+ *   also like this shows all other pages
+ * !setup the error page
+ * *in the MyAppRouter class ,inside Go Router()
+ *   create property
+ *              errorPageBulder:(context,state){return MaterialPage(child: ErrorPagePage())}
+ * errorr page is whatbhas to shown when the an unknown routename is type on the app bar
+ * !now we have to make these routes constants at app_route_constants.dart file
+ * naming the routes separately in every routes will be difficult so we 
+ * create these names in the constants file
+ * !add MyAppRouteConstants.ROutename to the route names
+ * *run it works agin 
+ * *it acts like a stack we are putting routes one over another
  * 
- * 
- * 
+ * !ROUTING USING BUTTONS
+ * =========================
+ * define elevetaed button on every pages
+ * then add this inside onPressed
+ *         GoRouter.of(context).pushNamed(MyAppRouteConstants.Routenamesofpages);
  * 
 
  */
