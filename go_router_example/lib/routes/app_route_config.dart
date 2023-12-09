@@ -9,6 +9,10 @@ import 'package:go_router_example/routes/app_route_constants.dart';
 
 class MyAppRouter {
   GoRouter router = GoRouter(
+      initialLocation: "/",
+      
+      routerNeglect: true,
+      debugLogDiagnostics: true,
       routes: [
         GoRoute(
           path: "/",

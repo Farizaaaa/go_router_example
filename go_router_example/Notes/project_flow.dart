@@ -46,6 +46,8 @@
  * !ROUTING USING BUTTONS
  * =========================
  * define elevetaed button on every pages
+ * then add this inside onPressed
+ *         GoRouter.of(context).pushNamed(MyAppRouteConstants.Routenamesofpages);
  * 
 
  */
